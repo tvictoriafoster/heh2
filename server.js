@@ -6,7 +6,7 @@ let propertiesReader = require("properties-reader");
 const cors = require('cors');
 
 const app = express();
-const port = 5500;
+const port = process.env.PORT || 3000;
 
 //properties
 console.log(__dirname);
